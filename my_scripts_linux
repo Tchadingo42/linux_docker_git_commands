@@ -1,0 +1,27 @@
+1) Docker
+
+sudo systemctl status docker
+docker ps -a
+docker container ls -a
+sudo docker container ls -aq
+docker container stop [container_id]
+docker container stop $(docker container ls –aq)
+docker container rm [container_id]
+docker system prune
+docker-compose config
+docker-compose logs -f --tail 5
+docker-compose up
+docker-compose down
+
+*************************************************************************************
+
+2) Git
+
+git clone --branch <branch name> <url>
+git checkout -b ma_branche_de_developpement
+git push -u repository_distant ma_branche_de_developpement
+git push --set-upstream origin feature/CRUD_USER_CHRIS
+
+*************************************************************************************
+
+3) Bash

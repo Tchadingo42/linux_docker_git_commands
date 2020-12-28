@@ -21,6 +21,10 @@ git clone --branch <branch name> <url>
 git checkout -b ma_branche_de_developpement
 git push -u repository_distant ma_branche_de_developpement
 git push --set-upstream origin feature/CRUD_USER_CHRIS
+git branch test
+git checkout test
+git status 
+git rm --cached
 
 *************************************************************************************
 

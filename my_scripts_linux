@@ -24,4 +24,7 @@ git push --set-upstream origin feature/CRUD_USER_CHRIS
 
 *************************************************************************************
 
-3) Bash
+3) SSH
+
+ssh-keygen -t rsa -b 4096 -C teichris@outlook.com"
+cat < ~/.ssh/id_rsa.pub
